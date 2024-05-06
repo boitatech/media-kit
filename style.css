@@ -1,0 +1,60 @@
+body {
+    background-color: #1a1919 !important;
+    font-family: "Montserrat",sans-serif !important; 
+}
+
+h1, h2, h3, p {
+    color: #ffffff
+}
+
+hr.white {
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.media-kit-nossa-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* align-content: stretch; */
+}
+
+.media-kit-nossa-logo-title {
+    font-size: 48px;
+    line-height: 150%;
+}
+
+.media-kit-colors-list {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.media-kit-colors-item {
+    width: 130px;
+}
+
+.media-kit-colors-item-bg {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.media-kit-typography {
+    margin: 100px 0;
+    width: 100%;
+    float: left;
+    clear: both;
+    position: relative;
+}
+
+.media-kit-typography-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px;
+    font-size: 24px;
+    line-height: 150%;
+}
